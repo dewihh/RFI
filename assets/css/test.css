@@ -1,0 +1,42 @@
+.edit p {
+    opacity: 1;
+    margin: 0 !important;
+}
+
+.edit p img {
+    display: none;
+    width: 200px;
+    height: 200px;
+}
+
+.edits p {
+    opacity: 0;
+    margin: 0 !important;
+}
+
+.edits p img {
+    display: none;
+    width: 200px;
+    height: 200px;
+}
+
+@media print {
+    .edit p {
+        opacity: 1;
+        margin: 0 !important;
+    }
+    .edit p img {
+        display: none;
+        width: 200px;
+        height: 200px;
+    }
+    .edits p {
+        opacity: 0;
+        margin: 0 !important;
+    }
+    .edits p img {
+        display: none;
+        width: 200px;
+        height: 200px;
+    }
+}
