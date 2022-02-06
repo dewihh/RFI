@@ -66,7 +66,7 @@
                     <div class="row">
                         <div class="col-xs-12 col-sm-6">
                             <div class="form-group">
-                                <label for="nik">Total) : </label>
+                                <label for="nik">Total : </label>
                                 <input type="text" name="nik" id="nik" class="form-control" placeholder="Masukan Total" required="reuqired" />
                             </div>
                         </div>
