@@ -2,7 +2,7 @@
     <div class="col-12">
         <div class="card">
             <div class="card-header d-block">
-                <h4 class="card-title float-left">Data KomandanTe</h4>
+                <h4 class="card-title float-left">Data Karyawan</h4>
                 <div class="d-inline ml-auto float-right">
                     <a href="<?= base_url('karyawan/create') ?>" class="btn btn-success btn-sm"><i class="fa fa-plus"></i> Tambah</a>
                 </div>
