@@ -7,7 +7,7 @@
     <link rel="icon" type="image/png" href="../assets/img/favicon.ico"> -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
-    <title>Laporan Kegiatan - Wonogiri</title>
+    <title>Laporan Kegiatan - Lintech</title>
 
     <!--     Fonts and icons     -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
@@ -48,7 +48,7 @@
             <div class="sidebar-wrapper">
                 <div class="logo">
                     <a href="<?= base_url() ?>" class="simple-text">
-                        <img src="<?= base_url('assets/img/logo-indoexpress.png') ?>" alt="" class="img-fluid">
+                        <img src="<?= base_url('assets/img/Logo_LDP.png') ?>" alt="" class="img-fluid">
                     </a>
                 </div>
                 <ul class="nav">
@@ -130,7 +130,7 @@
                                 <p>Laporan</p>
                             </a>
                         </li>
-                        <li class="nav-item <?= @$_active ?>">
+                        <!-- <li class="nav-item <?= @$_active ?>">
                             <a class="nav-link" href="<?= base_url('laporan/all_laporan') ?>">
                                 <i class="nc-icon nc-paper-2"></i>
                                 <p>Laporan Tanggal</p>
@@ -141,7 +141,7 @@
                                 <i class="nc-icon nc-single-copy-04"></i>
                                 <p>Laporan Range</p>
                             </a>
-                        </li>
+                        </li> -->
                         
                     <?php else : ?>
                         <!-- <li class="nav-item <?= @$_active ?>">

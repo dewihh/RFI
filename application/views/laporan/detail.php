@@ -71,7 +71,7 @@
                                 Export Laporan
                             </button>
                             <div class="dropdown-menu" aria-labelledby="droprop-action">
-                                <a href="<?= base_url('laporan/export_pdf/' . $this->uri->segment(3) . "?awal=$awal&akhir=$akhir") ?>" class="dropdown-item" target="_blank"><i class="fa fa-file-pdf-o"></i> PDF</a>
+                                <a href="<?= base_url('laporan/export_excel/' . $this->uri->segment(3) . "?awal=$awal&akhir=$akhir") ?>" class="dropdown-item" target="_blank"><i class="fa fa-file-excel-o"></i> Excel</a>
                             </div>
                         </div>
                     </div>
@@ -115,7 +115,7 @@
                             <?php endforeach; ?>
                         <?php else: ?>
                             <tr>
-                                <td class="bg-light" colspan="7">Tidak ada data Laporan</td>
+                                <td class="bg-light" colspan="8">Tidak ada data Laporan</td>
                             </tr>
                         <?php endif; ?>
                     </tbody>

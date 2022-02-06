@@ -17,7 +17,7 @@
                     <section id="login-body" class="pt-3">
                         <div class="card border-0 shadow pt-3">
                             <div class="card-header bg-transparent border-bottom-0 pb-0 text-center">
-                                <img src="<?= base_url('assets/img/logo-Indoexpress.png') ?>" alt="Logo Indoexpress" class="img-fluid mx-auto d-block">
+                                <img src="<?= base_url('assets/img/Logo_LDP.png') ?>" alt="Logo Indoexpress" class="img-fluid mx-auto d-block">
                                 <div class="mt-3">
                                     <span class="card-info text-center">Masuk untuk melakukan absensi</span>
                                 </div>
