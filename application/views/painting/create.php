@@ -10,9 +10,9 @@
                     <div class="row">
                         <div class="col-xs-12 col-sm-12">
                             <div class="form-group">
-                                <label for="jenis">Description : </label>
+                                <label for="jenis">Head Mask : </label>
                                 <select name="jenis" id="jenis" class="form-control">
-                                    <option value="" disabled selected>-- Pilih Description --</option>
+                                    <option value="" disabled selected>-- Pilih Head Mask --</option>
                                     <option value="Edukasi Politik">0</option>
                                     <option value="Sosial Kultur">1</option>
                                     <option value="Kegiatan Internal">2</option>
@@ -54,8 +54,8 @@
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-4">
                             <div class="form-group">
-                                <label for="kegiatan">Head Mark : </label>
-                                <input type="text" name="kegiatan" id="kegiatan" class="form-control" placeholder="Masukan Head Mark" required="reuqired" />
+                                <label for="kegiatan">Description : </label>
+                                <input type="text" name="kegiatan" id="kegiatan" class="form-control" placeholder="Masukan Description" required="reuqired" />
                             </div>
                         </div>
                     </div>
@@ -64,53 +64,69 @@
                 <div class="card-body border-top py-0 my-3">
                     <h4 class="text-muted my-3">Painting</h4>
                     <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-4">
+                        <div class="col-xs-12 col-sm-6">
                             <div class="form-group">
-                                <label for="kegiatan">WEIGHT : </label>
-                                <input type="text" name="kegiatan" id="kegiatan" class="form-control" placeholder="Masukan WEIGHT" required="reuqired" />
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-12 col-md-4">
-                            <div class="form-group">
-                                <label for="kegiatan">SAND SA 2,5 : </label>
+                                <label for="kegiatan">SAND SA 2,5 Fab : </label>
                                 <input type="text" name="kegiatan" id="kegiatan" class="form-control" placeholder="Masukan SAND SA 2,5" required="reuqired" />
                             </div>
                         </div>
-                        <div class="col-xs-12 col-sm-12 col-md-4">
+                        <div class="col-xs-12 col-sm-6">
                             <div class="form-group">
-                                <label for="kegiatan">PRIMER (75 M) : </label>
+                                <label for="kegiatan">SAND SA 2,5 QC : </label>
+                                <input type="text" name="kegiatan" id="kegiatan" class="form-control" placeholder="Masukan SAND SA 2,5" required="reuqired" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                    <div class="col-xs-12 col-sm-6">
+                            <div class="form-group">
+                                <label for="kegiatan">PRIMER (75 M) Fab : </label>
                                 <input type="text" name="kegiatan" id="kegiatan" class="form-control" placeholder="Masukan PRIMER (75 M)" required="reuqired" />
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6">
+                            <div class="form-group">
+                                <label for="nik">PRIMER (75 M) QC : </label>
+                                <input type="text" name="nik" id="nik" class="form-control" placeholder="Masukan FINISH (150 M)" required="reuqired" />
                             </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-xs-12 col-sm-6">
                             <div class="form-group">
-                                <label for="nik">FINISH (150 M) : </label>
+                                <label for="nik">FINISH (150 M) Fab : </label>
                                 <input type="text" name="nik" id="nik" class="form-control" placeholder="Masukan FINISH (150 M)" required="reuqired" />
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-6">
                             <div class="form-group">
-                                <label for="nama">OTHER : </label>
+                                <label for="nama">FINISH (150 M) QC : </label>
                                 <input type="text" name="nama" id="nama" class="form-control" placeholder="Masukana OTHER" required="reuqired" />
                             </div>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-4">
+                        <div class="col-xs-12 col-sm-6">
                             <div class="form-group">
-                                <label for="kegiatan">FINAL : </label>
-                                <input type="text" name="kegiatan" id="kegiatan" class="form-control" placeholder="Masukan FINAL" required="reuqired" />
+                                <label for="nik">Other : </label>
+                                <input type="text" name="nik" id="nik" class="form-control" placeholder="Masukan FINISH (150 M)" required="reuqired" />
                             </div>
                         </div>
-                        <div class="col-xs-12 col-sm-12 col-md-4">
+                        <div class="col-xs-12 col-sm-6">
+                            <div class="form-group">
+                                <label for="nama">Final : </label>
+                                <input type="text" name="nama" id="nama" class="form-control" placeholder="Masukana OTHER" required="reuqired" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6">
                             <div class="form-group">
                                 <label for="kegiatan">% : </label>
                                 <input type="text" name="kegiatan" id="kegiatan" class="form-control" placeholder="Masukan %" required="reuqired" />
                             </div>
                         </div>
-                        <div class="col-xs-12 col-sm-12 col-md-4">
+                        <div class="col-xs-12 col-sm-6">
                             <div class="form-group">
                                 <label for="kegiatan">WEIGHT : </label>
                                 <input type="text" name="kegiatan" id="kegiatan" class="form-control" placeholder="Masukan WEIGHT" required="reuqired" />
